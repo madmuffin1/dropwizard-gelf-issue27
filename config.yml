@@ -1,0 +1,7 @@
+logging:
+  level: INFO
+  loggers:
+    com.github.madmuffin1: DEBUG
+  appenders:
+    - type: console
+    - type: gelf

@@ -1,0 +1,7 @@
+logging:
+  level: INFO
+  loggers:
+    com.github.madmuffin1: DEBUG
+    org.eclipse.jetty.server.HttpChannelState: INFO
+  appenders:
+    - type: console
